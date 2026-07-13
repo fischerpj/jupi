@@ -1,0 +1,16 @@
+{
+  "@jupyterlab/apputils-extension:layoutconfig": {
+    "sidebar": false,
+    "header": false
+  },
+  "@jupyterlab/docmanager-extension:plugin": {
+    "singleDocument": true
+  },
+  "@jupyterlab/notebook-extension:panel": {
+    "toolbar": [
+      { "name": "run", "command": "notebook:run-cell-and-select-next" },
+      { "name": "interrupt", "command": "kernelmenu:interrupt" },
+      { "name": "restart", "command": "kernelmenu:restart" }
+    ]
+  }
+}
