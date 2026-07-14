@@ -1,5 +1,0 @@
-{
-  "@jupyterlab/docmanager-extension:plugin": {
-    "singleDocument": true
-  }
-}
